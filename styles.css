@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffe0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Изменил на flex-start, чтобы контент был вверху */
+    min-height: 100vh;
+    overflow: auto; /* Разрешаем прокрутку */
+    background-image: url('image2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    background: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffea, 0 0 30px #007f7f;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #00ffe0;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #007f7f;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+    text-shadow: 0 0 8px #00ffea;
+}
+
+.header h2 {
+    margin: 5px 0 0 0;
+    font-size: 28px;
+    color: #00ffea;
+    text-shadow: 0 0 6px #00ffea;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 20px #00ffea;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details h3 {
+    margin-top: 0;
+    font-size: 24px;
+    text-shadow: 0 0 8px #00ffea;
+}
+
+.skills, .interests, .contacts, .quote {
+    padding: 20px;
+    border-top: 1px solid #00ffea;
+}
+
+.skills h3, .interests h3, .contacts h3, .quote h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px #00ffea;
+}
+
+.skills ul, .interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .interests ul li {
+    background: rgba(0, 255, 234, 0.1);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00ffea;
+}
+
+.contacts a {
+    color: #ff007f;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff007f;
+}
+
+.quote {
+    background-color: rgba(0, 255, 234, 0.1);
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffea;
+    text-align: center;
+}
+
+.quote p {
+    color: #ff007f;
+    font-size: 20px;
+    text-shadow: 0 0 8px #ff007f;
+}
+
+a:hover {
+    color: #00ffe0;
+}
